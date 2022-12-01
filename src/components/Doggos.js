@@ -1,11 +1,11 @@
 import Doggo from './Doggo'
 
-const Doggos = ({ doggos, onDelete }) => {
+const Doggos = ({ doggos, onDelete, onToggle }) => {
   
   return (
     <>
     {doggos.map((doggo) => (
-    <Doggo key={doggo.id} doggo={doggo} onDelete={onDelete}/>))}
+    <Doggo key={doggo.id} doggo={doggo} onDelete={onDelete} onToggle={onToggle}/>))}
     </>
   )
 }

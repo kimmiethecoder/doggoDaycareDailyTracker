@@ -79,8 +79,8 @@ body{
   cursor: pointer;
 }
 
-.doggo.teamName {
-  border-left: 5px solid green;
+.doggo.reminder {
+  border: 5px solid purple;
 }
 
 .doggo h3 {
