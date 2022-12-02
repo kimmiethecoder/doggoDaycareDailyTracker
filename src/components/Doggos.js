@@ -4,8 +4,8 @@ const Doggos = ({ doggos, onDelete, onToggle }) => {
   
   return (
     <>
-    {doggos.map((doggo) => (
-    <Doggo key={doggo.id} doggo={doggo} onDelete={onDelete} onToggle={onToggle}/>))}
+    {doggos.map((doggo, index) => (
+    <Doggo key={index} doggo={doggo} onDelete={onDelete} onToggle={onToggle}/>))}
     </>
   )
 }

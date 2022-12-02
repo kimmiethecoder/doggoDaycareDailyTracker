@@ -80,7 +80,7 @@ body{
 }
 
 .doggo.reminder {
-  border: 5px solid purple;
+  border-left: 5px solid purple;
 }
 
 .doggo h3 {
@@ -142,7 +142,7 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
-  footer h5 {
+  footer h5 p {
     font-variant: small-caps;
   }
 }

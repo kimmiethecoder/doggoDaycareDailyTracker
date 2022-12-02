@@ -1,4 +1,5 @@
 import { FaTimes } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Doggo = ({ doggo, onDelete, onToggle }) => {
   return (
@@ -9,6 +10,7 @@ const Doggo = ({ doggo, onDelete, onToggle }) => {
       onToggle={onToggle}/>
       </h3>
       <p>{doggo.breed}</p>
+      <p><Link to={`/doggo/${doggo.id}`}>View Details</Link></p>
       <p>{doggo.teamName} Team</p>
       <p>Special Notes: {doggo.notes}</p>
     </div>

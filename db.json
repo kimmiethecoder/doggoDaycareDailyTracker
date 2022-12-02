@@ -1,0 +1,59 @@
+{
+  "doggos": [
+    {
+      "id": 1,
+      "name": "Becky",
+      "breed": "Labrador Retriever",
+      "notes": "dietary",
+      "teamName": "Monday",
+      "reminder": false
+    },
+    {
+      "id": 2,
+      "name": "Kim",
+      "breed": "French Bulldog",
+      "notes": "dietary",
+      "teamName": "Tuesday",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "breed": "Dachshund",
+      "notes": "seizures",
+      "teamName": "Wednesday",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "name": "Ollie",
+      "breed": "Dachshund",
+      "notes": "diabetic",
+      "teamName": "Thursday",
+      "reminder": false
+    },
+    {
+      "id": 5,
+      "name": "Waffle",
+      "breed": "Shih Tzu",
+      "notes": "allergies",
+      "teamName": "Friday",
+      "reminder": false
+    },
+    {
+      "id": 6,
+      "name": "Roxy",
+      "breed": "Beagle",
+      "notes": "visual impairment",
+      "teamName": "Saturday",
+      "reminder": false
+    },
+    {
+      "name": "Jillian",
+      "breed": "Boxer",
+      "notes": "large pup",
+      "reminder": false,
+      "id": 7
+    }
+  ]
+}
