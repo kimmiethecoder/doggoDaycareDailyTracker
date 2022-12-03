@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 const Doggo = ({ doggo, onDelete, onToggle }) => {
   return (
     <div className={`doggo ${doggo.reminder ? 'reminder' : ''}`} onDoubleClick={() => onToggle(doggo.id)}>
+      <img src={doggo.image} alt="dog" />
       <h3>{doggo.name} <FaTimes style={{color: 'red', 
       cursor: 'pointer'}} 
       onClick={() => onDelete(doggo.id)} 

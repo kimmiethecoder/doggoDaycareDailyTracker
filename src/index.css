@@ -18,6 +18,10 @@ body{
   border-radius: 5px;
 }
 
+img {
+  width: 200px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;

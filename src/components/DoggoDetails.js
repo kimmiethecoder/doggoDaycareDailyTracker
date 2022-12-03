@@ -3,6 +3,7 @@ import { Navigate, useNavigate, useParams } from "react-router-dom"
 import Button from './Button'
 
 
+
 function DoggoDetails () {
   const [loading, setLoading] = useState(true)
   const [doggo, setDoggo] = useState({})
@@ -18,6 +19,7 @@ function DoggoDetails () {
 
         setDoggo(data)
         setLoading(false)
+        setError(null)
     }
 
     fetchDoggo()
@@ -33,6 +35,7 @@ function DoggoDetails () {
   ) : (
     <div>
         <h2>Doggo Details</h2>
+        <img src={doggo.image} alt="dog" />
         <h3>{doggo.name}</h3>
         <p>{doggo.breed}</p>
         <p>{doggo.teamName} Team</p>

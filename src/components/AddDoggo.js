@@ -4,6 +4,7 @@ const AddDoggo = ({onAdd}) => {
     const [name, setName] = useState('')
     const [breed, setBreed] = useState('')
     const [notes, setNotes] = useState('')
+    const [image, setImage] = useState('')
     const [reminder, setReminder] = useState(false)
 
     const onSubmit = (e) => {
@@ -14,16 +15,21 @@ const AddDoggo = ({onAdd}) => {
             return
         }
 
-        onAdd({ name, breed, notes, reminder })
+        onAdd({ name, breed, notes, image, reminder })
 
         setName('')
         setBreed('')
         setNotes('')
+        setImage('')
         setReminder(false)
     }
 
   return (
     <form className="add-form" onSubmit={onSubmit}>
+        <div className="img-thumbnail">
+            <label>Image</label>
+            <input type="image" placeholder="Add Image" alt="dog" value={image} onChange={(e) => setImage(e.target.value)} />
+        </div>
         <div className="form-control">
             <label>Doggo</label>
             <input type="text" placeholder="Add New Doggo" value={name} onChange={(e) => setName(e.target.value)} />
