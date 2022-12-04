@@ -53,6 +53,14 @@
       "image": "images/bgCookiePom.jpg",
       "teamName": "Saturday",
       "reminder": false
+    },
+    {
+      "name": "Tester",
+      "breed": "Tester",
+      "notes": "Tester",
+      "image": "C:\\fakepath\\charlie.jpg",
+      "reminder": false,
+      "id": 7
     }
   ]
 }

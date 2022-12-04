@@ -35,7 +35,7 @@ function DoggoDetails () {
   ) : (
     <div>
         <h2>Doggo Details</h2>
-        <img src={doggo.image} alt="dog" />
+        <img type="file" src={doggo.image} alt="dog" />
         <h3>{doggo.name}</h3>
         <p>{doggo.breed}</p>
         <p>{doggo.teamName} Team</p>
