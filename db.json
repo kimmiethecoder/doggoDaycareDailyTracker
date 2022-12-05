@@ -5,7 +5,7 @@
       "name": "Becky",
       "breed": "Labrador Retriever",
       "notes": "dietary",
-      "image": "images/bgCookiePom.jpg",
+      "image": "images/daycamp.jpg",
       "teamName": "Monday",
       "reminder": false
     },
@@ -23,7 +23,7 @@
       "name": "Charlie",
       "breed": "Dachshund",
       "notes": "seizures",
-      "image": "images/bgCookiePom.jpg",
+      "image": "images/charlie.jpg",
       "teamName": "Wednesday",
       "reminder": false
     },
@@ -32,7 +32,7 @@
       "name": "Ollie",
       "breed": "Dachshund",
       "notes": "diabetic",
-      "image": "images/bgCookiePom.jpg",
+      "image": "images/ollie.jpg",
       "teamName": "Thursday",
       "reminder": false
     },
@@ -41,7 +41,7 @@
       "name": "Waffle",
       "breed": "Shih Tzu",
       "notes": "allergies",
-      "image": "images/bgCookiePom.jpg",
+      "image": "images/waffle.jpg",
       "teamName": "Friday",
       "reminder": false
     },
@@ -50,17 +50,9 @@
       "name": "Roxy",
       "breed": "Beagle",
       "notes": "visual impairment",
-      "image": "images/bgCookiePom.jpg",
+      "image": "images/roxy.jpg",
       "teamName": "Saturday",
       "reminder": false
-    },
-    {
-      "name": "Tester",
-      "breed": "Tester",
-      "notes": "Tester",
-      "image": "C:\\fakepath\\charlie.jpg",
-      "reminder": false,
-      "id": 7
     }
   ]
 }

@@ -1,3 +1,4 @@
+import { getSpaceUntilMaxLength } from "@testing-library/user-event/dist/utils"
 import { useState, useEffect } from "react"
 import { Navigate, useNavigate, useParams } from "react-router-dom"
 import Button from './Button'
@@ -35,7 +36,7 @@ function DoggoDetails () {
   ) : (
     <div>
         <h2>Doggo Details</h2>
-        <img type="file" src={doggo.image} alt="dog" />
+        <img type="image" src={doggo.image} alt="dog"/>
         <h3>{doggo.name}</h3>
         <p>{doggo.breed}</p>
         <p>{doggo.teamName} Team</p>
