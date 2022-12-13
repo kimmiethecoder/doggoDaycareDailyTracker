@@ -4,10 +4,10 @@
       "id": 1,
       "name": "Becky",
       "breed": "Labrador Retriever",
-      "notes": "dietary",
+      "notes": "seizures",
       "image": "images/daycamp.jpg",
       "teamName": "Monday",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 2,

@@ -43,7 +43,7 @@ const AddDoggo = ({onAdd}) => {
             <input type="text" placeholder="Add Special Notes" value={notes} onChange={(e) => setNotes(e.target.value)}/>
         </div>
         <div className="form-control form-control-check">
-            <label>Set Reminder</label>
+            <label>Check to flag for health-related special notes</label>
             <input type="checkbox" checked={reminder} value={reminder} onChange={(e) => setReminder(e.currentTarget.checked)} />
         </div>
 
