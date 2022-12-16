@@ -4,17 +4,21 @@
   padding: 0;
 }
 
-body{
+body {
   font-family: Arial;
-  background-color: lightgray;
+  background-image: url(/public/images/background.jpg);
+}
+
+.gray {
+  background-image: url(/public/images/background2.jpg);
 }
 
 .container {
+  background-color: lightgray;
   max-width: 750px;
   margin: 30px auto;
   overflow: auto;
   min-height: 500px;
-  /* border: 1px solid steelblue; */
   padding: 30px;
   border-radius: 5px;
 }
@@ -28,6 +32,7 @@ img {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+  background-color: lightgray;
 }
 
 .btn {
@@ -57,35 +62,15 @@ img {
   width: 100%;
 }
 
-/* .card-collection {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-} */
-
-/* .standout {
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-} */
-
-/* h1,h2,h3,h4,h5,p {
-  text-align: center;
-} */
-
-/* Button {
-  padding: 8px;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-} */
-
 .doggo {
-  background: #f4f4f4;
+  background: rgb(240, 218, 221);
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
 }
 
 .doggo.reminder {
-  border-left: 5px solid purple;
+  border: 5px solid teal;
 }
 
 .doggo h3 {

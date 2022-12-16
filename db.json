@@ -7,7 +7,7 @@
       "notes": "seizures",
       "image": "images/daycamp.jpg",
       "teamName": "Monday",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 2,
@@ -53,6 +53,14 @@
       "image": "images/roxy.jpg",
       "teamName": "Saturday",
       "reminder": false
+    },
+    {
+      "name": "Roxy",
+      "breed": "Beagle",
+      "notes": "visual impairment",
+      "image": "C:\\fakepath\\roxy.jpg",
+      "reminder": false,
+      "id": 7
     }
   ]
 }
